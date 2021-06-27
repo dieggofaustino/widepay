@@ -1,0 +1,15 @@
+- api_name: descricao
+  app_name: description
+  type: string
+
+- api_name: quantidade
+  app_name: qty
+  type: string
+
+- api_name: valor
+  app_name: value
+  type: float
+
+- api_name: desconto
+  app_name: discount
+  type: float

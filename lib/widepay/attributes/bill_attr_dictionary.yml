@@ -1,0 +1,75 @@
+- api_name: id
+  app_name: id
+  type: string
+
+- api_name: forma
+  app_name: bill_type
+  type: string
+
+- api_name: cliente
+  app_name: client_name
+  type: string
+
+- api_name: pessoa
+  app_name: client_type
+  type: string
+
+- api_name: cpf
+  app_name: cpf
+  type: string
+
+- api_name: cnpj
+  app_name: cnpj
+  type: string
+
+- api_name: email
+  app_name: email
+  type: string
+
+- api_name: telefone
+  app_name: phone_number
+  type: string
+
+- api_name: endereco
+  app_name: address
+  type: address
+
+- api_name: itens
+  app_name: items
+  type: bill_items
+
+- api_name: referencia
+  app_name: reference
+  type:
+
+- api_name: valor
+  app_name: value
+  type: float
+
+- api_name: recebido
+  app_name: payd_value
+  type: float
+
+- api_name: tarifa
+  app_name: fee_value
+  type: float
+
+- api_name: vencimento
+  app_name: due_at
+  type: date
+
+- api_name: recebimento
+  app_name: payd_at
+  type: date
+
+- api_name: criacao
+  app_name: created_at
+  type: date
+
+- api_name: status
+  app_name: status
+  type: string
+
+- api_name: historico
+  app_name: history
+  type: history
